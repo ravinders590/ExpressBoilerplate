@@ -1,0 +1,56 @@
+/* Universal Reset */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML and Body */
+html, body {
+  height: 100%;
+  line-height: 1.5;
+}
+
+/* Remove text decoration on links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Set list styles to none */
+ul, ol {
+  list-style: none;
+}
+
+/* Remove border on images */
+img {
+  border: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Remove table border and spacing */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Remove input border and outline */
+input, button, textarea {
+  border: none;
+  outline: none;
+}
+
+/* Reset form elements appearance */
+button, input, select, textarea {
+  background: transparent;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
